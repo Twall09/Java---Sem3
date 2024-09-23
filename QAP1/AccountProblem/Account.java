@@ -1,4 +1,4 @@
-package QAP1.Account;
+package QAP1.AccountProblem;
 
 public class Account {
     private String id;

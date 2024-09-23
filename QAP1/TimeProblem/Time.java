@@ -1,4 +1,4 @@
-package QAP1.Time;
+package QAP1.TimeProblem;
 
 public class Time {
     private int hour;

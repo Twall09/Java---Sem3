@@ -1,4 +1,4 @@
-package QAP1.Date;
+package QAP1.DateProblem;
 
 public class Date {
     private int day;
