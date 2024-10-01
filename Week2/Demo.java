@@ -3,10 +3,10 @@ package Week2;
 public class Demo {
     public static void main(String[] args) {
 
-        Employee john = new Employee(1, "john", "doe", 4500);
-        System.out.println(john);
-        john.raiseSalary(10);
-        System.out.println(john);
+        // Employee john = new Employee(1, "john", "doe", 4500);
+        // System.out.println(john);
+        // john.raiseSalary(10);
+        // System.out.println(john);
 
         
         
@@ -16,26 +16,26 @@ public class Demo {
         
         
         
-        // Circle C1 = new Circle();
-        // Circle C2 = new Circle("blue");
-        // Circle C3 = new Circle(5.0);
-        // Circle C4 = new Circle(3.0, "blue");
-        // Circle C5 = new Circle(6.0,"blue");
-        // Circle C6 = new Circle(C1);
+        Circle C1 = new Circle();
+        Circle C2 = new Circle("blue");
+        Circle C3 = new Circle(5.0);
+        Circle C4 = new Circle(3.0, "blue");
+        Circle C5 = new Circle(6.0,"blue");
+        Circle C6 = new Circle(C1);
 
-        // System.out.println(C1);
-        // System.out.println(C2);
-        // System.out.println(C3);
-        // System.out.println(C4);
-        // System.out.println(C5);
-        // System.out.println(C6);
+        System.out.println("Area of circle: " + C1.getArea());
+        System.out.println("Area of circle: " + C2.getArea());
+        System.out.println("Area of circle: " + C3.getArea());
+        System.out.println("Area of circle: " + C4.getArea());
+        System.out.println("Area of circle: " + C5.getArea());
+        System.out.println("Area of circle: " + C6.getArea());
 
-        // C1.setColor("yellow");
-        // C1.setRadius(10.0);
-        // System.out.println(C1);
-        // C1.setColor("purple");
-        // C1.setRadius(10.0);
-        // System.out.println(C1);
+        C1.setColor("yellow");
+        C1.setRadius(10.0);
+        System.out.println(C1);
+        C1.setColor("purple");
+        C1.setRadius(10.0);
+        System.out.println(C1);
 
     //     Rectangle r1 = new Rectangle();
     //     Rectangle r2 = new Rectangle();

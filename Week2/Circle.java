@@ -3,6 +3,7 @@ package Week2;
 public class Circle {
     private double radius = 1.0;
     private String color = "red";
+    public static final double PI = 3.14;
 
     public Circle() {
         this.radius = 0.0;
@@ -52,7 +53,7 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.pow(this.radius,2) * Math.PI;
+        return Math.pow(this.radius,2) * PI;
 
     }
 
